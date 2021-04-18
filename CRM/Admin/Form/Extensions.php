@@ -21,6 +21,11 @@
 class CRM_Admin_Form_Extensions extends CRM_Admin_Form {
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Form pre-processing.
    */
   public function preProcess() {

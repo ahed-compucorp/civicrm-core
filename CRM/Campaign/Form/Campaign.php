@@ -49,6 +49,11 @@ class CRM_Campaign_Form_Campaign extends CRM_Core_Form {
   protected $_campaignId;
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Explicitly declare the entity api name.
    */
   public function getDefaultEntity() {

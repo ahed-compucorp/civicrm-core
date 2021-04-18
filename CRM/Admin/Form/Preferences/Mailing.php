@@ -37,6 +37,11 @@ class CRM_Admin_Form_Preferences_Mailing extends CRM_Admin_Form_Preferences {
     'open_tracking_default' => CRM_Core_BAO_Setting::MAILING_PREFERENCES_NAME,
   ];
 
+  /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
   public function postProcess() {
     $params = $this->controller->exportValues($this->_name);
 

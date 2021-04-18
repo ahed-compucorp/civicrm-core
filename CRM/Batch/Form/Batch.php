@@ -15,6 +15,11 @@
 class CRM_Batch_Form_Batch extends CRM_Admin_Form {
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * PreProcess function.
    */
   public function preProcess() {

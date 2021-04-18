@@ -31,6 +31,11 @@ class CRM_Admin_Form_ScheduleReminders extends CRM_Admin_Form {
   protected $_compId;
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * @return mixed
    */
   public function getComponentID() {

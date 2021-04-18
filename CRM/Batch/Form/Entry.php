@@ -90,6 +90,11 @@ class CRM_Batch_Form_Entry extends CRM_Core_Form {
   protected $submittableMoneyFields = ['total_amount', 'net_amount', 'non_deductible_amount', 'fee_amount'];
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Build all the data structures needed to build the form.
    *
    * @throws \CRM_Core_Exception

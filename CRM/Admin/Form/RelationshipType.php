@@ -42,6 +42,11 @@ class CRM_Admin_Form_RelationshipType extends CRM_Admin_Form {
   protected $entityFields = [];
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Set entity fields to be assigned to the form.
    */
   protected function setEntityFields() {

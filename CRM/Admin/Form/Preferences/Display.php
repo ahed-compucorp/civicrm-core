@@ -42,6 +42,11 @@ class CRM_Admin_Form_Preferences_Display extends CRM_Admin_Form_Preferences {
   ];
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Build the form object.
    */
   public function buildQuickForm() {

@@ -23,6 +23,11 @@ class CRM_Badge_Form_Layout extends CRM_Admin_Form {
   const FIELD_ROWCOUNT = 6;
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Build the form object.
    */
   public function buildQuickForm() {

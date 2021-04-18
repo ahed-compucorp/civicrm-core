@@ -30,6 +30,11 @@ class CRM_Admin_Form_Setting_Path extends CRM_Admin_Form_Setting {
   ];
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Build the form object.
    *
    * @throws \CRM_Core_Exception

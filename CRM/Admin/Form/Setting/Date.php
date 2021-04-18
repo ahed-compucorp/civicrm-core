@@ -35,6 +35,11 @@ class CRM_Admin_Form_Setting_Date extends CRM_Admin_Form_Setting {
   ];
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Build the form object.
    */
   public function buildQuickForm() {

@@ -22,6 +22,11 @@ class CRM_Admin_Form_WordReplacements extends CRM_Core_Form {
   public $unsavedChangesWarn = TRUE;
 
   /**
+   * @var bool
+   */
+  public $submitOnce = TRUE;
+
+  /**
    * Pre process function.
    */
   public function preProcess() {
